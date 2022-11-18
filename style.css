@@ -92,6 +92,7 @@ h3{
     
     text-align: left;
     margin:10px 0;
+
 }
 
 .samsung-col:hover{
@@ -103,19 +104,30 @@ h3{
     justify-content: center;
 
 }
+#news{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
 
-.news_col{
-    flex-basis: 30%;
+#news-text{
+    display: flex;
+    text-align: top;
+}
+.news-col{
+    width: 300px;
+    height: auto;
     background: rgb(255, 255, 255);
     border-radius: 10px;
-    margin-bottom: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding: 20px 12px;
-    box-sizing: border-box;
+    padding: 10px 10px;
     transition: 0.5s;
 }
 
+.news-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.);
+}
 footer
 {
     background-color: black;
