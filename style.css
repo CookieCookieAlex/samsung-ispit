@@ -88,7 +88,7 @@ h3{
     font-variant: 300;
     margin: 10px 0;
 }
-#text_aline{
+.text_aline{
     
     text-align: left;
     margin:10px 0;
@@ -104,11 +104,23 @@ h3{
 
 }
 
+.news_col{
+    flex-basis: 30%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
 footer
 {
     background-color: black;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 0.85cm;
-    vertical-align:top
+    vertical-align:top;
 }
