@@ -119,6 +119,7 @@ table {
   justify-content: left;
 }
 
+
 .news-col:hover,.news-col2:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
@@ -126,8 +127,6 @@ table {
 .news-col {
   width: 360px;
   height: auto;
-<<<<<<< Updated upstream
-=======
   background: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 15px;
@@ -138,7 +137,6 @@ table {
   vertical-align: top;
   width: 360px;
   height: 280px;
->>>>>>> Stashed changes
   background: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 15px;
