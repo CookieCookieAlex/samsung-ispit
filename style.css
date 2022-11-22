@@ -121,17 +121,25 @@ table {
   margin: 50px;
 }
 
-.news-col:hover {
+.news-col:hover,news-col2:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
 
 #news {
   width: fit-content;
-  cursor: pointer;
   box-shadow: none;
 }
 
 .news-col {
+  vertical-align: top;
+  width: 360px;
+  height: auto;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.news-col2 {
   vertical-align: top;
   width: 360px;
   height: 280px;
