@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +22,13 @@ background {
   background-position: center;
   background-size: cover;
   position: relative;
+}
+
+.main{
+  width:90vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+  min-height: calc(100vh - 150px - 112px);
 }
 
 nav {
@@ -73,8 +81,8 @@ nav img {
 }
 
 .samsung-col {
-  width:fit-content;
-  flex-basis: 30%;
+  width: fit-content;
+  flex-basis: 20%;
   background: rgb(255, 255, 255);
   border-radius: 10px;
   margin: 3%;
@@ -82,7 +90,6 @@ nav img {
   box-sizing: border-box;
   transition: 0.5s;
 }
-
 
 .samsung-col:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.6);
@@ -108,20 +115,21 @@ table {
   border-spacing: 20px;
 }
 
-#imageOne{
+#imageOne {
   z-index: 0;
 }
-#imageTwo{
+#imageTwo {
   z-index: 1;
 }
 
-#headLine{
+#headLine {
   display: flex;
   justify-content: center;
   margin: 50px;
 }
 
-.news-col:hover,news-col2:hover {
+.news-col:hover,
+news-col2:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -149,7 +157,7 @@ table {
   transition: 0.5s;
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
 }
 
@@ -173,9 +181,9 @@ a {
 }
 
 footer {
+  width: 100%;
   background-color: black;
   text-align: center;
   color: rgb(255, 255, 255);
-  font-size: 0.85cm;
-  vertical-align: top;
+  font-size: 1cm;
 }
