@@ -73,7 +73,6 @@ nav img {
 }
 
 .samsung-col {
-  width:fit-content;
   flex-basis: 30%;
   background: rgb(255, 255, 255);
   border-radius: 10px;
@@ -83,6 +82,10 @@ nav img {
   transition: 0.5s;
 }
 
+.text_aline {
+  text-align: left;
+  margin: 10px 0;
+}
 
 .samsung-col:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.6);
@@ -101,38 +104,27 @@ td {
 table {
   justify-content: center;
   display: flex;
-  margin-top: 2%;
+  margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
   empty-cells: hide;
   border-spacing: 20px;
 }
 
-#imageOne{
-  z-index: 0;
-}
-#imageTwo{
-  z-index: 1;
+#narrow {
+  width: 5%;
 }
 
-#headLine{
-  display: flex;
-  justify-content: center;
-  margin: 50px;
+.phone-tables {
+  justify-content: left;
 }
 
-.news-col:hover, .news-col2:hover {
+
+.news-col:hover,.news-col2:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
 
-#news {
-  width: fit-content;
-  cursor: pointer;
-  box-shadow: none;
-}
-
 .news-col {
-  vertical-align: top;
   width: 360px;
   height: auto;
   background: rgb(255, 255, 255);
@@ -140,6 +132,7 @@ table {
   border-radius: 15px;
   transition: 0.5s;
 }
+
 .news-col2 {
   vertical-align: top;
   width: 360px;
@@ -147,30 +140,14 @@ table {
   background: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 15px;
+  margin: 10px 10px;
   transition: 0.5s;
-}
-
-a:hover{
-  cursor: pointer;
-}
-
-a {
-  width: fit-content;
-  all: unset;
-  text-decoration: none;
 }
 
 .line {
   border-bottom: 2px solid rgba(103, 86, 112, 0.516);
   margin-left: 5%;
   margin-right: 5%;
-}
-
-.line-news {
-  border-bottom: 2px solid rgba(10, 17, 93, 0.791);
-  margin-right: 47%;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 footer {
